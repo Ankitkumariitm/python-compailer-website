@@ -77,3 +77,21 @@ details p { margin-top: 15px; color: var(--gray); line-height: 1.6; }
 .dev-tag { margin-top: 30px; font-size: 1.1rem; color: var(--gray); }
 .dev-tag span { color: var(--primary); font-weight: bold; }
 .copyright { margin-top: 20px; font-size: 0.8rem; color: #444; }
+
+@media (max-width: 480px) {
+   .hero-text h1{
+
+font-size: 2rem;
+padding: 4px;
+
+}
+.hero-text h1 span{
+    font-size: 1.5rem;
+    padding: 4px;
+    
+}
+   
+
+   
+
+}
